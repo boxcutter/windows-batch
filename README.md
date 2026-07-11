@@ -6,9 +6,18 @@
 >
 > Boxcutter is moving away from using legacy JSON/vagrant
 > in favour of HCL and producing compressed images that can be loaded
-> into the various hypervisors directly. Renamed the repo from `boxcutter/windows` to
-> `boxcutter/windows-batch` as we may end up reusing the name for a new Windows
-> effort.
+> into the various hypervisors directly. 
+>
+> Now repos are per-hypervisor with all the OSes within them instead of being
+> per-OS/per-distribution. Currently we're focusing on KVM/QEMU in 
+> https://github.com/boxcutter/kvm and we may target other hypervisors in the
+> future.
+>
+> Renamed the repo from `boxcutter/windows` to `boxcutter/windows-batch` as we may
+> end up reusing the name for a new Windows effort. Though it is more likely that
+> it will be in a repository called `boxcutter/hyperv`.
+
+
 
 ### Overview
 
