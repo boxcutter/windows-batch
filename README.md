@@ -1,5 +1,15 @@
 # Packer templates for Windows written in legacy JSON
 
+> **We're moving away from vagrant!**
+>
+> Archived on July 11, 2026.
+>
+> Boxcutter is moving away from using legacy JSON/vagrant
+> in favour of HCL and producing compressed images that can be loaded
+> into the various hypervisors directly. Renamed the repo from `boxcutter/windows` to
+> `boxcutter/windows-batch` as we may end up reusing the name for a new Windows
+> effort.
+
 ### Overview
 
 This repository contains templates for Windows written in legacy JSON that can create
